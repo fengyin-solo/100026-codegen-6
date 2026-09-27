@@ -6,6 +6,7 @@
 """
 from __future__ import annotations
 
+from app.routers import access as router_access
 from app.routers import plant as router_plant
 from app.routers import inspection as router_inspection
 from app.routers import panel_clean as router_panel_clean
@@ -25,4 +26,4 @@ from app.routers import dc_box as router_dc_box
 from app.routers import energy_saving as router_energy_saving
 from app.routers import training as router_training
 
-ROUTERS = [router_plant, router_inspection, router_panel_clean, router_inverter, router_power_data, router_fault, router_spare_part, router_transformer, router_switchgear, router_meter, router_weather, router_grid_connect, router_cable, router_security, router_maintenance, router_dc_box, router_energy_saving, router_training]
+ROUTERS = [router_access, router_plant, router_inspection, router_panel_clean, router_inverter, router_power_data, router_fault, router_spare_part, router_transformer, router_switchgear, router_meter, router_weather, router_grid_connect, router_cable, router_security, router_maintenance, router_dc_box, router_energy_saving, router_training]
